@@ -67,7 +67,7 @@ function countVowel(sentence) {
 // কোন array থেকে Duplicate নাম্বারগুলো কিভাবে বের করে আনতে পারি
 
 const numbers = [
-  1, 2, 5, 15, 41, 12, 21, 43, 12, 12, 31, 43, 53, 53, 34, 23, 53, 34, 51,
+  1, 2, 5, 15, 41, 12, 2, 43, 12, 12, 31, 43, 53, 53, 34, 23, 53, 34, 51,
 ];
 
 const duplicates = numbers.filter(function (value, index, array) {
@@ -75,4 +75,4 @@ const duplicates = numbers.filter(function (value, index, array) {
   return array.indexOf(value) !== index; // Output will be duplicate value only
 });
 
-// console.log(duplicates);
+console.log(duplicates);
