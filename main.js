@@ -75,4 +75,4 @@ const duplicates = numbers.filter(function (value, index, array) {
   return array.indexOf(value) !== index; // Output will be duplicate value only
 });
 
-console.log(duplicates);
+// console.log(duplicates);
